@@ -88,7 +88,7 @@ class RandomChar extends Component {
     }
 }
 
- const View = ({char}) => {
+const View = ({char}) => {
     const {name, description, thumbnail, homepage, wiki} = char;
     
     let imgStyle = {'objectFit' : 'cover'};
